@@ -1,0 +1,2 @@
+HobbyBook = {"name": "Alexandra Olivier", "age": 26, "Hobbies": ["painting", "swimming", "traveling"], "wakeUp": ["5am", "530am", "730am"]}
+print(HobbyBook(["name"] + HobbyBook["age"] + "Likes" + HobbyBook["hobbies"][1] + "wakes up at" + HobbyBook["wakeUp"][2])
