@@ -1,0 +1,4 @@
+Approximate word count = 285
+Approximate sentence count = 11
+Approximate letter count (per word) = 5.249122807017544
+Average sentence length (in words) = 0
