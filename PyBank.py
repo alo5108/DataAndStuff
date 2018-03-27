@@ -9,7 +9,9 @@ date=[]
 def mean(numbers):
     return float(sum(numbers)) / max(len(numbers), 1)
 
-BankData = os.path.join("Resources","budget_data_1.csv")
+BankData = os.path.join("Resources","budget_data_2.csv")
+
+outputTXT= os.path.join("Resources", "pyBank2.txt")
 
 with open(BankData, newline="") as csvfile:
     csvreader = csv.reader(csvfile, delimiter=",")
@@ -43,6 +45,13 @@ with open(BankData, newline="") as csvfile:
     print (month_max + "(" +str(maximum)+")")
     print (month_min + "(" +str(minimum)+")")
 
+with open(outputTXT, 'w',) as textFile:
+    
+    textFile.write("Total months = "+ str(totalmonth))
+    textFile.write("\n" + "Total Revenue = "+str(totalrevenue))
+    textFile.write("\n"+ "Average Revenue Change = " +str(mean(RevenueChange)))
+    textFile.write("\n"+ "Greatest Increase in Revenue =" + month_min + "(" +str(minimum)+ ")")
+    textFile.write("\n"+ "Greatest Decrease in Revenue =" + month_max + "(" +str(maximum)+")")
 
 
   
