@@ -1,0 +1,19 @@
+Crime on campuses--which has the most crime
+Shootings in correlation with presidencies 
+Shootings over time
+Immigration in relation to economy 
+Shootings in U.S. versus other countries
+Sentiment analysis correlation to..
+
+
+
+
+Project 1:
+Data Bootcamps in relation to jobs they have when they get out; different bootcamps
+
+Project 2:
+
+
+Accidental bioterrorism--comparing an accidental chemical spill in the U.S.
+to an actual bioterrorist attack. The effects of accidental vs. intentional; 
+looking at help over time if it improves, how long, etc.  
