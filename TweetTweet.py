@@ -17,3 +17,4 @@ public_tweets= api.user_timeline(target_user)
 
 for tweet in public_tweets:
     print(json.dumps(tweet, sort_keys=True, indent=4, separators=(',', ': ')))
+

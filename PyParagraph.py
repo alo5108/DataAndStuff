@@ -24,7 +24,7 @@ with open(PyPara, newline="") as txtfile:
     
     print("Approximate word count:",str(len(wordcount)))
     print("Approximate sentence count:",str(len(linecount))
-    print("Approximate letter count (per word):"str(mean(list(map(len, para.split())))))
+    print("Approximate letter count (per word):",str(mean(list(map(len, para.split())))))
 
     import re
     s= para
